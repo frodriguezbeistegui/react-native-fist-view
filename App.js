@@ -44,41 +44,41 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({ 
- appCointainer: {
-  flex: 1,
-  paddingHorizontal: 16,
- },
- inputContainer: {
-  flex: 1,
-  maxHeight:200,
-  minHeight:180,
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  marginBottom: 24,
-  borderBottomWidth: 1,
-  borderColor: "#cccccc",
+  appCointainer: {
+    flex: 1,
+    paddingHorizontal: 16,
+  },
+  inputContainer: {
+    flex: 1,
+    maxHeight:200,
+    minHeight:180,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 24,
+    borderBottomWidth: 1,
+    borderColor: "#cccccc",
 
 
- },
- textInput: {
-  borderWidth: 1,
-  borderColor: "#cccccc",
-  width: '70%',
-  marginRight: 8,
-  padding: 8,
- },
- goalsContainer: {
-  flex: 5,
-  minHeight:50
- },
- goalItem: {
-  margin: 8,
-  padding: 8,
-  borderRadius: 6,
-  backgroundColor: '#5e0acc',
- },
- goalItemText: {
-  color: 'white',
- }
+  },
+  textInput: {
+    borderWidth: 1,
+    borderColor: "#cccccc",
+    width: '70%',
+    marginRight: 8,
+    padding: 8,
+  },
+  goalsContainer: {
+    flex: 5,
+    minHeight:50
+  },
+  goalItem: {
+    margin: 8,
+    padding: 8,
+    borderRadius: 6,
+    backgroundColor: '#5e0acc',
+  },
+  goalItemText: {
+    color: 'white',
+  }
 });
